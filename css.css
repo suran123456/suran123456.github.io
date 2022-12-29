@@ -1,0 +1,263 @@
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg2.jpg) repeat;
+    color: #000000;
+}
+
+.top {
+    height: 147px;
+    background: #000 url(../images/top.jpg) center 0 no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tbody {
+    width: 1024px;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bot {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    border-top: 5px solid #000;
+   color: #eee;
+   height: 60px;
+}
+
+img {
+    border: 0;
+}
+.tu img{
+    width: 100%;
+    pad: 10px;
+}
+.dh {
+    background: #673ab7;
+  
+    border-left: none;
+    text-align: center;
+    padding-top: 10px;
+    border-right: none;
+    height: 46px;
+  
+}
+
+.dh a {
+    color: #fff;
+    font-size: 22px;
+ 
+    margin: 0 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.big {
+    width: 1005px;
+    margin: 0 auto;
+}
+
+.swiper img {
+    width: 100%;
+    height: 460px;
+}
+
+
+
+.example {}
+
+.example ol {
+    position: relative;
+    width: 180px;
+    height: 97px;
+    top: -420px;
+    left: 790px;
+}
+
+.example ol li {
+    width: 180px;
+    height: 97px;
+    margin: 5px;
+    background: #fcc;
+}
+
+.example ol li img {
+    width: 180px;
+    height: 97px;
+}
+
+.example ol li.seleted {
+    background: #1AA4CA;
+}
+
+.example1 {}
+
+.example1 ol {
+    position: relative;
+    width: 80px;
+    height: 20px;
+    top: -30px;
+    left: 60px;
+}
+
+.example1 ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: #fff;
+}
+
+.example1 ol li.seleted {
+    background: #1AA4CA;
+}
+
+.example2 {}
+
+.example2 ol {
+    position: relative;
+    width: 80px;
+    height: 20px;
+    top: -30px;
+    left: 60px;
+}
+
+.example2 ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: #fcc;
+}
+
+.example2 ol li.seleted {
+    background: #1AA4CA;
+}
+
+.example ul li a img {
+    width: 820px;
+    height: 400px;
+}
+
+/*����*/
+.luara- {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+.luara- ul {
+    padding: inherit;
+    margin: 0;
+}
+
+.luara- ul li {
+    display: none;
+    padding: inherit;
+    margin: inherit;
+    list-style: none;
+}
+
+.luara- ul li:first-child {
+    display: block;
+}
+
+.luara- ul li img {
+    width: inherit;
+    height: inherit;
+}
+
+
+
+
+.left {
+    width: 380px;
+    float: left;
+}
+
+.right {
+    width: 610px;
+    float: right;
+}
+
+.right img {
+    width: 192px;
+    height: 120px;
+    padding: 2px;
+    border: 1px solid #eee;
+}
+
+.right li {
+    display: inline;
+
+}
+
+.danye{
+    width: 610px;
+    float: right;
+}
+.danye img{
+    width: 280px;
+}
+.k {
+    clear: both;
+}
+
+.big2 {
+    margin-top: 10px;
+}
+
+.td {
+    background: #eee;
+    line-height: 38px;
+ 
+    font-size: 22px;
+    
+    padding-left: 20px
+}
+
+.bd {
+    line-height: 35px;
+
+    padding: 10px;
+    text-align: center;
+}
+
+.bd p {
+    text-align: left;
+}
+
+.bd img {
+    border: 2px dashed #8C4806;
+    padding: 3px;
+    margin: 20px 0 5px 0
+}
+
+.bd a {
+    float: right;
+}
+.danye ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ .danye li{
+  margin: 1px;
+ }
