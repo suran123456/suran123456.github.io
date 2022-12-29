@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy4-1</title>
+<style type="text/css">
+	body{
+		line-height: 5px;
+		position: relative;
+	}
+	#box{
+		border-width: 2px;
+		border-color: black;
+		border-style: solid;
+		background-color: grey;
+		width:550px;
+		height: 600px;
+		margin:5% 10% 5% 30%;
+		padding:0px 10px 0px 10px;
+	}
+	#header{
+		color:yellow;
+		border-width: 2px;
+		border-color: yellow;
+		border-style: solid;
+		background-color: red;
+		width:500px;
+		height:150px;
+		padding:0px 0px 0px 0px;
+		margin:0px 21.5px 20px 11.5px;
+		padding:0px 10px 0px 10px;
+	}
+	#logo{
+		color:black;
+		border-width: 2px;
+		border-color: black;
+		border-style: solid;
+		background-color: yellow;
+		width:150px;
+		height:40px;
+		float:left;
+		margin:0px 0px 0px 10px;
+		padding:0px 10px 0px 10px;
+	}
+	#banner{
+		color:white;
+		border-width: 2px;
+		border-color: black;
+		border-style: solid;
+		background-color: blue;
+		width:250px;
+		height:40px;
+		float:left;
+		margin:0px 10px 0px 30px;
+		padding:0px 10px 0px 10px;
+	}
+	#menu{
+		color:white;
+		border-width: 2px;
+		border-color: black;
+		border-style: solid;
+		background-color: darkgreen;
+		width:455px;
+		height: 40px;
+		float: left;
+		margin:15px 10px 15px 10px; 
+		padding:0px 10px 0px 10px;
+	}
+	#main{
+		color:white;
+		border-width: 2px;
+		border-color: yellow;
+		border-style: solid;
+		background-color: green;
+		width:500px;
+		height: 250px;
+		margin:30px 21.5px 20px 11.5px;
+		padding:0px 10px 0px 10px;
+	}
+	#sidebar{
+		color:white;
+		border-width: 2px;
+		border-color: white;
+		border-style: solid;
+		background-color: blue;
+		width:150px;
+		height:200px;
+		float: left;
+		margin:0px 0px 0px 10px;
+		padding:0px 10px 0px 10px;
+	}
+	#content{
+		color:white;
+		border-width: 2px;
+		border-color: white;
+		border-style: solid;
+		background-color: skyblue;
+		width:250px;
+		height:200px;
+		float: left;
+		margin:0px 10px 0px 30px;
+		padding:0px 10px 0px 10px;
+	}
+	#footer{
+		color:white;
+		border-width: 2px;
+		border-color: yellow;
+		border-style: solid;
+		background-color: red;
+		width: 500px;
+		height: 50px;
+		margin:40px 21.5px 20px 11.5px;
+		padding:0px 10px 0px 10px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="box">
+		<p>div->box包含下面3部分结构div(header,main,footer)，布局网页宽度和居中</p>
+		<div id="header">
+			<p>div->header包含下面3个结构div布局头部高度和主要背景</p>
+			<div id="logo">
+				<p>div->id=logo</p>
+			</div>
+			<div id="banner">
+				<p>div->id=banner</p>
+			</div>
+			<div id="menu">
+				<p>div->id=menu</p>
+			</div>
+		</div>
+		<div id="main">
+			<p>div->id=main包含下面两个div(sidebar,content)</p>
+			<div id="sidebar">
+				<p>div->id=sidebar</p>
+			</div>
+			<div id="content">
+				<p>div->id=content</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>div->id=footer</p>
+		</div>	
+	</div>
+</body>
+</html>

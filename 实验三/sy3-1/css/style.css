@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: floralwhite
+}
+.h2{
+	color: red;
+	text-align: center;
+}
+.h3{
+	text-align: left;
+	color: green;
+}
+.box_details p{
+	text-indent: 2em;
+	line-height: 20px
+}
